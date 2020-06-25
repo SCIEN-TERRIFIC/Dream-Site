@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div align='center'>
+            <h2>USER REGISTRATION</h2>
+            <form method='' action=''>
+            <table border='0'>
+                <tr>
+                    <td>NAME</td>
+                    <td><input type="text" id='frame' name='fname' placeholder='ENTER NAME' required maxlength='10'></td>
+                </tr>
+                <tr>
+                    <td>ROLL</td>
+                    <td><input type="text" id='frame' name='fname' placeholder='ENTER ROLL' required maxlength='10'></td>
+                </tr>
+                <tr>
+                    <td>MOBILE NO:</td>
+                    <td><input type='number'></td>
+                </tr>
+                <tr>
+                    <td>EMAIL</td>
+                    <td><input type='email'></td>
+
+                </tr>
+                <tr>
+                    <td>GENDER</td>
+                    <td>
+                        <input type='radio' name='g1' value='M'>MALE
+                        <input type='radio' name='g1' value='F'>FEMALE
+                    </td>
+                </tr>
+                <tr>
+                    <td>HOBBY</td>
+                    <td>
+                        <input type='checkbox' name='ckt' value='cricket'>CRICKET
+                        <input type='checkbox' name='fball' value='football'>FOOTBALL
+                    </td>
+                </tr>
+                <tr>
+                    <td>COUNTRY</td>
+                    <td>
+                        <select>
+                        <option value="India">INDIA</option>
+                        <option value='Usa'>USA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>CHOOSE FILE</td>
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Browsers</td>
+                    <td>
+                  <input list='browsers'>
+                   <datalist id='browsers'>
+                       <option value='Internet Explorer'></option>
+                       <option value='Firefox'></option>
+                       <option value='Chrome'></option>
+                       <option value='Opera'></option>
+                       <option value='Safari'></option>
+                       <option value='Duckduck Go'></option>
+                   </datalist>
+                </td>
+            </tr><br>
+                <tr>
+                    <td>Country</td>
+                    <td>
+                   <select name='Country1' id='country1'>
+                    <label>OptionGroup Example:</label>
+                    <optgroup label="Australia">
+                        <option value="sydney">Sydney</option>
+                        <option value="melbourne">Melbourne</option>
+                    </optgroup>
+                    <optgroup label="India">
+                        <option value="mumbai">Mumbai</option>
+                        <option value="delhi">Delhi</option>
+                    </optgroup>
+                  </select>
+                 </td>
+               </tr>
+            </table>
+          </form>
+          <input type='password' placeholder="password">
+          <input type="hidden" placeholder="HIDDEN">
+          <input type='date'><br>
+          <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="REG">
+                <input type="reset" value="CLEAR">
+                <input type='image' src='images/b.jpg' width=40 height=30>
+            </td>
+        </tr> 
+        </div>
+    </body>
+</html>
