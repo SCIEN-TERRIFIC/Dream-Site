@@ -10,21 +10,34 @@
         <form>
             <table>
                 <tr>
-                    <td>NAME</td>
+                    <td>NAME&nbsp;&nbsp;</td>
                     <td>
                         <input type='text' placeholder="ENTER NAME" id='fname' required maxlength='20'>
                     </td>
                 </tr>
+                </tr>
                 <tr>
-                    <td>ROLL NUMBER</td>
+                    <td>PHONE NO:&nbsp;&nbsp;</td>
+                    <td><input type='number' required maxlength='12'></td>
+                </tr>
+                <tr>
+                    <td>COURSE CHOICE&nbsp;&nbsp;</td>
                     <td>
-                        <input type='Number' required maxlength='10'>
+                        <input type='radio' name='b' value='bachelors'>BACHELORS
+                        <input type='radio' name='m' value='masters'>MASTERS
                     </td>
                 </tr>
                 <tr>
-                    <td>EMAIL</td>
-                    <td><input type='email'></td>
-
+                    <td>DESCRIPTION:&nbsp;&nbsp;</td>
+                    <td><input type="textbox" id='frame' name='fname'  required maxlength='300'></td>
+                </tr>
+                <tr>
+                    <td>SUBJECT INTERESTS:&nbsp;&nbsp;</td>
+                    <td>
+                        <input type='checkbox' name='ai' value='AI'>AI
+                        <input type='checkbox' name='wd' value='WD'>WEB DEVELOPMENT
+                        <input type='checkbox' name='ad' value='AD'>APP DEVELOPMENT
+                    </td>
                 </tr>
             </table>
         </form>
