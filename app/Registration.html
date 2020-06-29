@@ -7,18 +7,18 @@
     <body>
         <div align='center'>
         <h2>USER REGISTRATION</h2>
-        <form>
+        <form action="attach.php" method='get'>
             <table>
                 <tr>
                     <td>NAME&nbsp;&nbsp;</td>
                     <td>
-                        <input type='text' placeholder="ENTER NAME" id='fname' required maxlength='20'>
+                        <input type='text' placeholder="ENTER NAME" id='frame' name='fname' required maxlength='20'>
                     </td>
                 </tr>
                 </tr>
                 <tr>
                     <td>PHONE NO:&nbsp;&nbsp;</td>
-                    <td><input type='number' required maxlength='12'></td>
+                    <td><input type='number' name='fphoneNo' required maxlength='12'></td>
                 </tr>
                 <tr>
                     <td>COURSE CHOICE&nbsp;&nbsp;</td>
@@ -29,7 +29,7 @@
                 </tr>
                 <tr>
                     <td>DESCRIPTION:&nbsp;&nbsp;</td>
-                    <td><input type="textbox" id='frame' name='fname'  required maxlength='300'></td>
+                    <td><input type="textbox" id='frame' name='fdescription'  required maxlength='300'></td>
                 </tr>
                 <tr>
                     <td>SUBJECT INTERESTS:&nbsp;&nbsp;</td>
@@ -39,9 +39,13 @@
                         <input type='checkbox' name='ad' value='AD'>APP DEVELOPMENT
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <input type="submit" formaction="attach.php" value="Submit">
+                    </td>
+                </tr>
             </table>
         </form>
-
         </div>
     </body>
 </html>
